@@ -157,6 +157,7 @@ const Header = ({dark,handleDark}) => {
                           aria-label='Home'
                           title='Home'
                           className={linkStyle}
+                          onClick={() => setIsMenuOpen(false)}
                           >
                           Home
                         </Link>
@@ -167,6 +168,7 @@ const Header = ({dark,handleDark}) => {
                           aria-label='Books'
                           title='Books'
                           className={linkStyle}
+                          onClick={() => setIsMenuOpen(false)}
                           >
                           Books
                         </Link>
@@ -177,6 +179,7 @@ const Header = ({dark,handleDark}) => {
                           aria-label='About Us'
                           title='About Us'
                           className={linkStyle}
+                          onClick={() => setIsMenuOpen(false)}
                           >
                           About Us
                         </Link>
@@ -187,6 +190,7 @@ const Header = ({dark,handleDark}) => {
                           aria-label='Contact'
                           title='Contact'
                           className={linkStyle}
+                          onClick={() => setIsMenuOpen(false)}
                           >
                           Contact
                         </Link>
